@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hero
   layers:
   - Default
   - TransparentFX
@@ -11,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - ALine
+  - BLine
+  - CLine
   - 
   - 
   - 
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: CLine
+    uniqueID: 2219625895
+    locked: 0
+  - name: BLine
+    uniqueID: 238073735
+    locked: 0
+  - name: ALine
+    uniqueID: 3202050049
     locked: 0
